@@ -1,0 +1,648 @@
+@import url(http://fonts.googleapis.com/css?family=Comfortaa:400,700);
+
+$green: #8dc63f;
+$yellow: #ffff9a;
+$black: #000000;
+$white: #ffffff;
+$grey: #afafaf;
+
+/* line 1, styles.scss */
+html, body {
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+ 
+  background-color: $green;
+  background-image: url('../img/bg.jpg');
+}
+
+p{
+  margin: 0 0 10px 5px;
+}
+
+h2{
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+#shizue_head{
+  width: 100%;
+
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: $white;
+  line-height: 1.5em;
+  text-align: center;
+
+  h1{
+    width: auto;
+    -webkit-text-stroke: 2px darken($green,5%);
+
+    position: relative;
+    z-index: 1;
+    margin: -30px 0 -5px 0;
+
+    a{
+      color: $white;
+      text-decoration: none;
+      -webkit-text-stroke: 2px darken($green,5%);
+
+      &:hover{
+        color: lighten($yellow, 10%);
+      }
+    }
+  }
+
+  img.bell_1{
+    height: 25px;
+    margin: auto;
+    position: relative;
+    top: 53px;
+    left: -135px;
+    z-index: 2;
+  }
+  img.bell_2{
+    height: 25px;
+    margin: auto;
+    position: relative;
+    top: 53px;
+    left: -183px;
+    z-index: 0;
+  }
+
+  #shizue_bell{
+    width: 250px;
+    height: 25px;
+    float: right;
+    margin: -50px 24px 0 0;
+
+    position: relative;
+    z-index: 2;
+
+    form{
+      display: in-line block;
+      border: 1px inset #ccc;
+      background-color: #ffffff;
+    
+      overflow: auto;
+      width: 100%;
+      height: 25px;
+    
+      padding: 0;
+      margin: 0;
+      
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+
+      input{
+        display: in-line block;
+        border: 0;
+        width: 225px;
+        height: 25px;
+        text-align: center;
+    
+        padding: 0;
+        margin: 0;
+        float: left;
+      }
+
+      input.middle:focus {
+        outline-width: 0;
+      }
+
+      button{
+        display: in-line block;
+        width: 20px;
+        height: 20px;
+    
+        background: none;
+        border: 0;
+    
+        padding: 0;
+        margin: 2px 5px 0 0;
+        float: right;
+
+        cursor: hand;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+#shizue_body{
+  width: 100%;
+  height: 100%;
+
+  #shizue_shirt{
+    width: 100%;
+    overflow: auto;
+  }
+
+  #shizue_ribbon{
+    width: 600px;
+    font-size: .9em;
+    line-height: 1.5em;
+    color: $white;
+    background-color: darken($green, 10%);
+    padding: 25px;
+    margin: auto;
+
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+
+    border:{
+      style: solid;
+      width: 1px;
+      color: darken($green, 15%);
+    }
+
+    a{
+      color: lighten($yellow, 10%);
+      text-decoration: none;
+
+      &:hover{
+        color: $yellow;
+      }
+    }
+
+    table{
+      margin: 0 0 20px 0;
+      tr{
+        display: auto;
+
+        td{
+          border: 0;
+          display: auto;
+        }
+      }
+    }
+  }
+
+  #shizue_skirt{
+    width: 100%;
+    text-align: center;
+    background-color: $grey;
+
+    border-bottom: {
+      style: solid;
+      width: 1px;
+      color: darken($grey, 5%);
+    }
+
+    ul{
+      display: inline-block;
+
+      li{
+        padding: 5px;
+        float: left;
+      }
+    }
+
+    ul#shizue_pantsu{
+      font-family: 'Comfortaa', sans-serif;
+      font-size: 1em;
+      color: $white;
+
+      a{
+        color: $white;
+        text-decoration: none;
+
+        &:hover{
+          color: lighten($grey, 30%);
+        }
+      }
+
+      li{
+        list-style-type: square;
+        margin-right: 25px;
+      }
+
+      li.first{
+        list-style-type: none;
+      }
+    }
+  }
+
+  #shizue_legs{
+    width: 100%;
+    text-align: center;
+    margin: 5px 0 5px 0;
+
+    ul{
+      display: inline-block;
+
+      li{
+        padding: 5px;
+        float: left;
+      }
+    }
+
+    ul#shizue_feet{
+      font-family: 'Comfortaa', sans-serif;
+      font-size: .8em;
+      color: $white;
+
+      a{
+        color: $white;
+        text-decoration: none;
+
+        &:hover{
+          color: lighten($yellow, 10%);
+        }
+      }
+
+      li{
+        margin-right: 25px;
+        list-style-type: square;
+      }
+
+      li.first{
+        list-style-type: none;
+      }
+    }
+  }
+}
+
+table{
+  width: 100%;
+  
+  tr{
+    td{
+      border: {
+        style: solid;
+        width: 1px;
+        color: lighten($black, 75%);
+      }
+    }
+
+    td#month {
+      height: 1.5em;
+      font-family: 'Comfortaa', sans-serif;
+      font-size: 1.3em;
+      font-weight: bold;
+      color: $white;    
+      background-color: $grey;
+      vertical-align: middle;
+      text-align: center;
+
+      border-bottom: {
+        style: solid;
+        width: 1px;
+        color: darken($grey, 5%);
+      }
+
+      a{
+        color: $white;
+
+        &:hover{
+          color: darken($white, 10%);
+        }
+      }
+
+      ul{
+        width: 40%;
+        display: inline-block;
+        
+        li{
+          min-height: 1px;
+          float: left;
+
+            a{
+              text-decoration: none;
+            }
+        }
+    
+        li.left{
+          width: 10%;
+          float: left;
+        }
+        li.mid{
+          width: 80%;
+        }
+        li.right{
+          width: 10%;
+          float: right;
+        }
+      }
+    }
+  
+    td.day {
+      width: 14.28%;
+      height: 25px;
+      font-family: 'Comfortaa', sans-serif; 
+      font-weight: bold;
+      color: lighten($grey, 35%);
+      vertical-align: middle;
+      text-align: center;
+      background-color: lighten($grey, 5%);
+
+      border-bottom: {
+        style: solid;
+        width: 1px;
+        color: $grey;
+      }
+    }
+
+    td.date, table tr td.blank {
+      width: 14.28%;
+      height: 100px;
+      color: darken($green, 27%);
+
+      img{
+        float: left;
+        margin: -2px 5px 0 0;
+      }
+
+      div.num {
+        width: 20px;
+        height: 20px;
+        color: darken($green, 40%);
+        line-height: 20px;
+        text-align: center;
+        padding: 5px;
+        background-color: lighten($black, 90%);
+        
+        border: {
+          style: solid;
+          
+          right:{
+            width: 1px;
+            color: lighten($black, 75%);
+          }
+        }
+
+        -webkit-border-bottom-right-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        border-bottom-right-radius: 10px;
+      }
+
+      a{
+        color: darken($green,30%);
+        text-decoration: none;
+      }
+
+      ul {
+        width: 100%;
+        margin: 8px 0 5px 0;
+        display: block;
+
+        li {
+          font-size: 12px;
+          display: block;
+          margin: 0 5px 5px 5px;
+        }
+      }
+    }
+
+    td.light {
+      background-color: lighten($black, 85%);
+    }
+    td.dark {
+      background-color: lighten($black, 80%);
+    }
+    td.today {
+      div.num{
+        background-color: $yellow;
+      }
+    }
+    td.blank {
+      background-color: lighten($black, 95%);
+    }
+  }
+}
+
+/***************/
+/*Media Queries*/
+/***************/
+
+/*Smaller than 1280px*/
+@media screen and (max-width: 1280px){
+  #shizue_head{
+    #shizue_bell{
+      width: 200px;
+
+      form{
+        input{
+          width: 175px;
+        }
+      }
+    }
+  }
+
+  #shizue_body{
+    #shizue_skirt{
+      ul#shizue_pantsu{
+        li{
+          margin: 0;
+          list-style-type: none;
+        }
+      }
+    }
+  }
+}
+
+/*Smaller than 700px*/
+@media screen and (max-width: 700px){
+
+  #shizue_head{
+    font-size: 2.5em;
+
+    h1{
+      margin: auto;
+    }
+
+    img.bell_1{
+      display: none;
+    }
+    img.bell_2{
+      display: none;
+    }
+
+    #shizue_bell{
+      width: 100%;
+      height: 25px;
+      float: none;
+      margin: 0;
+
+      overflow: hidden;
+
+      border: {
+        style: solid;
+        bottom: {
+          width: 1px;
+          color: lighten($green, 15%);
+        }
+      }
+
+      form{
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+
+        input{
+          width: 90%;
+        }
+      }
+    }
+  }
+
+  #shizue_body{
+    #shizue_shirt{
+        table{
+        width: 100%;
+        overflow: hidden;
+        
+        tr{
+          width: 100%;
+          display: block;
+
+          td{
+            width: 100%;
+            display: block;
+
+            border: 0;
+            border: {
+              style: solid;
+              bottom: {
+                width: 1px;
+                color: lighten($black, 75%);
+              }
+            }
+          }
+
+          td#month{
+            width: 100%;
+            height: auto;
+
+            ul{
+              padding: 5px;
+            }
+          }
+
+          td.day, td.blank {
+            display: none;
+          }
+
+          td.date{
+            width: 100%;
+            min-height: 25px;
+            height: auto;
+            display: block;
+            overflow: hidden;
+
+            ul{
+              margin: 8px 0 5px 5px;
+
+              li{
+                float: left;
+                margin: 0 5px 5px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #shizue_skirt{
+      border: 0;
+
+      ul#shizue_pantsu{
+        width: 100%;
+        overflow: hidden;
+          
+        li{
+          float: none;
+          width: 100%;
+          margin: 0;
+          list-style-type: none;
+
+          border-bottom: {
+            style: solid;
+            width: 1px;
+            color: darken($grey, 10%);
+          }
+
+          &:hover{
+            background-color: darken($grey, 5%);
+          }
+
+          a{
+            display: block;
+          }
+        }
+      }
+    }
+
+    #shizue_legs{
+      font-size: 1em;
+      line-height: 1em;
+      margin: 0;
+
+      ul#shizue_feet{
+        width: 100%;
+
+        li{
+          width: 100%;
+          display: block;
+
+          padding: 0;
+          padding: 5px 0 5px 0;
+
+          border: {
+            style: solid;
+            bottom: {
+              width: 1px;
+              color: darken($green, 15%);
+            }
+          }
+
+          a{
+            display: block;
+          }
+
+          &:hover{
+            /*Hover bar color*/
+            background-color: transparentize($green, .5);
+          }
+        }
+
+        li.first{
+          border: {
+            style: solid;
+            top: {
+              width: 1px;
+              color: darken($green, 15%);
+            }
+          }
+        }
+      }
+    }
+
+    #shizue_ribbon{
+      width: 80%;
+      font-size: .9em;
+      line-height: 1.5em;
+      padding: 25px;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      table{
+        tr{
+          display: auto;
+
+          td{
+            border: 0;
+            display: auto;
+          }
+        }
+      }
+    }
+  }
+}

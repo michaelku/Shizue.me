@@ -1,0 +1,51 @@
+html, body{
+	font-family: sans-serif;
+}
+
+table tr td.month{
+	height: 35px;
+	font-size: 24px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #afafaf;
+}
+
+table tr td.day{
+	width: 150px;
+	height: 25px;
+
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+
+table tr td.date, table tr td.blank,{
+	width: 150px;
+	height: 150px;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+	table tr td.date div.num,{
+		padding: 5px;
+	}
+
+	table tr td.date ul{
+		width: 100%;
+		padding: 10px;
+		display: block;
+	}
+
+		table tr td.date ul li{
+			font-size: 12px;
+			display: block;
+		}
+
+table tr td.light{
+	background-color: #cccccc;
+}
+
+table tr td.blank{
+	background-color: #ff0000;
+}

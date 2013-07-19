@@ -1,0 +1,579 @@
+@import url(http://fonts.googleapis.com/css?family=Comfortaa:400,700);
+/* line 1, styles.scss */
+/* line 10, styles.scss */
+html, body {
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #8dc63f;
+  background-image: url("../img/bg.jpg");
+}
+
+/* line 21, styles.scss */
+p {
+  margin: 0 0 10px 5px;
+}
+
+/* line 25, styles.scss */
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+/* line 31, styles.scss */
+#shizue_head {
+  width: 100%;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+  line-height: 1.5em;
+  text-align: center;
+}
+/* line 41, styles.scss */
+#shizue_head h1 {
+  width: auto;
+  -webkit-text-stroke: 2px #80b636;
+  position: relative;
+  z-index: 1;
+  margin: -30px 0 -5px 0;
+}
+/* line 49, styles.scss */
+#shizue_head h1 a {
+  color: white;
+  text-decoration: none;
+  -webkit-text-stroke: 2px #80b636;
+}
+/* line 54, styles.scss */
+#shizue_head h1 a:hover {
+  color: #ffffcd;
+}
+/* line 60, styles.scss */
+#shizue_head img.bell_1 {
+  height: 25px;
+  margin: auto;
+  position: relative;
+  top: 53px;
+  left: -135px;
+  z-index: 2;
+}
+/* line 68, styles.scss */
+#shizue_head img.bell_2 {
+  height: 25px;
+  margin: auto;
+  position: relative;
+  top: 53px;
+  left: -183px;
+  z-index: 0;
+}
+/* line 77, styles.scss */
+#shizue_head #shizue_bell {
+  width: 250px;
+  height: 25px;
+  float: right;
+  margin: -50px 24px 0 0;
+  position: relative;
+  z-index: 2;
+}
+/* line 86, styles.scss */
+#shizue_head #shizue_bell form {
+  display: in-line block;
+  border: 1px inset #ccc;
+  background-color: #ffffff;
+  overflow: auto;
+  width: 100%;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 102, styles.scss */
+#shizue_head #shizue_bell form input {
+  display: in-line block;
+  border: 0;
+  width: 225px;
+  height: 25px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+/* line 114, styles.scss */
+#shizue_head #shizue_bell form input.middle:focus {
+  outline-width: 0;
+}
+/* line 118, styles.scss */
+#shizue_head #shizue_bell form button {
+  display: in-line block;
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 2px 5px 0 0;
+  float: right;
+  cursor: hand;
+  cursor: pointer;
+}
+
+/* line 137, styles.scss */
+#shizue_body {
+  width: 100%;
+  height: 100%;
+}
+/* line 141, styles.scss */
+#shizue_body #shizue_shirt {
+  width: 100%;
+  overflow: auto;
+}
+/* line 146, styles.scss */
+#shizue_body #shizue_ribbon {
+  width: 600px;
+  font-size: .9em;
+  line-height: 1.5em;
+  color: white;
+  background-color: #72a230;
+  padding: 25px;
+  margin: auto;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #648e2a;
+}
+/* line 165, styles.scss */
+#shizue_body #shizue_ribbon a {
+  color: #ffffcd;
+  text-decoration: none;
+}
+/* line 169, styles.scss */
+#shizue_body #shizue_ribbon a:hover {
+  color: #ffff9a;
+}
+/* line 174, styles.scss */
+#shizue_body #shizue_ribbon table {
+  margin: 0 0 20px 0;
+}
+/* line 176, styles.scss */
+#shizue_body #shizue_ribbon table tr {
+  display: auto;
+}
+/* line 179, styles.scss */
+#shizue_body #shizue_ribbon table tr td {
+  border: 0;
+  display: auto;
+}
+/* line 187, styles.scss */
+#shizue_body #shizue_skirt {
+  width: 100%;
+  text-align: center;
+  background-color: #afafaf;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #a2a2a2;
+}
+/* line 198, styles.scss */
+#shizue_body #shizue_skirt ul {
+  display: inline-block;
+}
+/* line 201, styles.scss */
+#shizue_body #shizue_skirt ul li {
+  padding: 5px;
+  float: left;
+}
+/* line 207, styles.scss */
+#shizue_body #shizue_skirt ul#shizue_pantsu {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1em;
+  color: white;
+}
+/* line 212, styles.scss */
+#shizue_body #shizue_skirt ul#shizue_pantsu a {
+  color: white;
+  text-decoration: none;
+}
+/* line 216, styles.scss */
+#shizue_body #shizue_skirt ul#shizue_pantsu a:hover {
+  color: #fbfbfb;
+}
+/* line 221, styles.scss */
+#shizue_body #shizue_skirt ul#shizue_pantsu li {
+  list-style-type: square;
+  margin-right: 25px;
+}
+/* line 226, styles.scss */
+#shizue_body #shizue_skirt ul#shizue_pantsu li.first {
+  list-style-type: none;
+}
+/* line 232, styles.scss */
+#shizue_body #shizue_legs {
+  width: 100%;
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+/* line 237, styles.scss */
+#shizue_body #shizue_legs ul {
+  display: inline-block;
+}
+/* line 240, styles.scss */
+#shizue_body #shizue_legs ul li {
+  padding: 5px;
+  float: left;
+}
+/* line 246, styles.scss */
+#shizue_body #shizue_legs ul#shizue_feet {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: .8em;
+  color: white;
+}
+/* line 251, styles.scss */
+#shizue_body #shizue_legs ul#shizue_feet a {
+  color: white;
+  text-decoration: none;
+}
+/* line 255, styles.scss */
+#shizue_body #shizue_legs ul#shizue_feet a:hover {
+  color: #ffffcd;
+}
+/* line 260, styles.scss */
+#shizue_body #shizue_legs ul#shizue_feet li {
+  margin-right: 25px;
+  list-style-type: square;
+}
+/* line 265, styles.scss */
+#shizue_body #shizue_legs ul#shizue_feet li.first {
+  list-style-type: none;
+}
+
+/* line 272, styles.scss */
+table {
+  width: 100%;
+}
+/* line 276, styles.scss */
+table tr td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bfbfbf;
+}
+/* line 284, styles.scss */
+table tr td#month {
+  height: 1.5em;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  background-color: #afafaf;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #a2a2a2;
+}
+/* line 300, styles.scss */
+table tr td#month a {
+  color: white;
+}
+/* line 303, styles.scss */
+table tr td#month a:hover {
+  color: #e6e6e6;
+}
+/* line 308, styles.scss */
+table tr td#month ul {
+  width: 40%;
+  display: inline-block;
+}
+/* line 312, styles.scss */
+table tr td#month ul li {
+  min-height: 1px;
+  float: left;
+}
+/* line 316, styles.scss */
+table tr td#month ul li a {
+  text-decoration: none;
+}
+/* line 321, styles.scss */
+table tr td#month ul li.left {
+  width: 10%;
+  float: left;
+}
+/* line 325, styles.scss */
+table tr td#month ul li.mid {
+  width: 80%;
+}
+/* line 328, styles.scss */
+table tr td#month ul li.right {
+  width: 10%;
+  float: right;
+}
+/* line 335, styles.scss */
+table tr td.day {
+  width: 14.28%;
+  height: 25px;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: bold;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #bcbcbc;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #afafaf;
+}
+/* line 352, styles.scss */
+table tr td.date, table tr table tr td.blank {
+  width: 14.28%;
+  height: 100px;
+  color: #435f1c;
+}
+/* line 357, styles.scss */
+table tr td.date img, table tr table tr td.blank img {
+  float: left;
+  margin: -2px 5px 0 0;
+}
+/* line 362, styles.scss */
+table tr td.date div.num, table tr table tr td.blank div.num {
+  width: 20px;
+  height: 20px;
+  color: #1f2c0d;
+  line-height: 20px;
+  text-align: center;
+  padding: 5px;
+  background-color: #e6e6e6;
+  border-style: solid;
+  border-right-width: 1px;
+  border-right-color: #bfbfbf;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* line 385, styles.scss */
+table tr td.date a, table tr table tr td.blank a {
+  color: #3b5319;
+  text-decoration: none;
+}
+/* line 390, styles.scss */
+table tr td.date ul, table tr table tr td.blank ul {
+  width: 100%;
+  margin: 8px 0 5px 0;
+  display: block;
+}
+/* line 395, styles.scss */
+table tr td.date ul li, table tr table tr td.blank ul li {
+  font-size: 12px;
+  display: block;
+  margin: 0 5px 5px 5px;
+}
+/* line 403, styles.scss */
+table tr td.light {
+  background-color: #d9d9d9;
+}
+/* line 406, styles.scss */
+table tr td.dark {
+  background-color: #cccccc;
+}
+/* line 410, styles.scss */
+table tr td.today div.num {
+  background-color: #ffff9a;
+}
+/* line 414, styles.scss */
+table tr td.blank {
+  background-color: #f2f2f2;
+}
+
+/***************/
+/*Media Queries*/
+/***************/
+/*Smaller than 1280px*/
+@media screen and (max-width: 1280px) {
+  /* line 427, styles.scss */
+  #shizue_head #shizue_bell {
+    width: 200px;
+  }
+  /* line 431, styles.scss */
+  #shizue_head #shizue_bell form input {
+    width: 175px;
+  }
+
+  /* line 441, styles.scss */
+  #shizue_body #shizue_skirt ul#shizue_pantsu li {
+    margin: 0;
+    list-style-type: none;
+  }
+}
+/*Smaller than 700px*/
+@media screen and (max-width: 700px) {
+  /* line 453, styles.scss */
+  #shizue_head {
+    font-size: 2.5em;
+  }
+  /* line 456, styles.scss */
+  #shizue_head h1 {
+    margin: auto;
+  }
+  /* line 460, styles.scss */
+  #shizue_head img.bell_1 {
+    display: none;
+  }
+  /* line 463, styles.scss */
+  #shizue_head img.bell_2 {
+    display: none;
+  }
+  /* line 467, styles.scss */
+  #shizue_head #shizue_bell {
+    width: 100%;
+    height: 25px;
+    float: none;
+    margin: 0;
+    overflow: hidden;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #b0d87a;
+  }
+  /* line 483, styles.scss */
+  #shizue_head #shizue_bell form {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  /* line 488, styles.scss */
+  #shizue_head #shizue_bell form input {
+    width: 90%;
+  }
+
+  /* line 497, styles.scss */
+  #shizue_body #shizue_shirt table {
+    width: 100%;
+    overflow: hidden;
+  }
+  /* line 501, styles.scss */
+  #shizue_body #shizue_shirt table tr {
+    width: 100%;
+    display: block;
+  }
+  /* line 505, styles.scss */
+  #shizue_body #shizue_shirt table tr td {
+    width: 100%;
+    display: block;
+    border: 0;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #bfbfbf;
+  }
+  /* line 519, styles.scss */
+  #shizue_body #shizue_shirt table tr td#month {
+    width: 100%;
+    height: auto;
+  }
+  /* line 523, styles.scss */
+  #shizue_body #shizue_shirt table tr td#month ul {
+    padding: 5px;
+  }
+  /* line 528, styles.scss */
+  #shizue_body #shizue_shirt table tr td.day, #shizue_body #shizue_shirt table tr td.blank {
+    display: none;
+  }
+  /* line 532, styles.scss */
+  #shizue_body #shizue_shirt table tr td.date {
+    width: 100%;
+    min-height: 25px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+  }
+  /* line 539, styles.scss */
+  #shizue_body #shizue_shirt table tr td.date ul {
+    margin: 8px 0 5px 5px;
+  }
+  /* line 542, styles.scss */
+  #shizue_body #shizue_shirt table tr td.date ul li {
+    float: left;
+    margin: 0 5px 5px 0;
+  }
+  /* line 552, styles.scss */
+  #shizue_body #shizue_skirt {
+    border: 0;
+  }
+  /* line 555, styles.scss */
+  #shizue_body #shizue_skirt ul#shizue_pantsu {
+    width: 100%;
+    overflow: hidden;
+  }
+  /* line 559, styles.scss */
+  #shizue_body #shizue_skirt ul#shizue_pantsu li {
+    float: none;
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #969696;
+  }
+  /* line 571, styles.scss */
+  #shizue_body #shizue_skirt ul#shizue_pantsu li:hover {
+    background-color: #a2a2a2;
+  }
+  /* line 575, styles.scss */
+  #shizue_body #shizue_skirt ul#shizue_pantsu li a {
+    display: block;
+  }
+  /* line 582, styles.scss */
+  #shizue_body #shizue_legs {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0;
+  }
+  /* line 587, styles.scss */
+  #shizue_body #shizue_legs ul#shizue_feet {
+    width: 100%;
+  }
+  /* line 590, styles.scss */
+  #shizue_body #shizue_legs ul#shizue_feet li {
+    width: 100%;
+    display: block;
+    padding: 0;
+    padding: 5px 0 5px 0;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #648e2a;
+  }
+  /* line 605, styles.scss */
+  #shizue_body #shizue_legs ul#shizue_feet li a {
+    display: block;
+  }
+  /* line 609, styles.scss */
+  #shizue_body #shizue_legs ul#shizue_feet li:hover {
+    /*Hover bar color*/
+    background-color: rgba(141, 198, 63, 0.5);
+  }
+  /* line 615, styles.scss */
+  #shizue_body #shizue_legs ul#shizue_feet li.first {
+    border-style: solid;
+    border-top-width: 1px;
+    border-top-color: #648e2a;
+  }
+  /* line 627, styles.scss */
+  #shizue_body #shizue_ribbon {
+    width: 80%;
+    font-size: .9em;
+    line-height: 1.5em;
+    padding: 25px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* line 637, styles.scss */
+  #shizue_body #shizue_ribbon table tr {
+    display: auto;
+  }
+  /* line 640, styles.scss */
+  #shizue_body #shizue_ribbon table tr td {
+    border: 0;
+    display: auto;
+  }
+}
